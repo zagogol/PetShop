@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    /*font-size: 0px;*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.topArea {
+    background-color: #222222;
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+    padding: 4px 0px 4px 90px;
+    width: 1024px;
+}
+
+#title1 {
+    font-size: 10px;    
+    color: white;
+    width: 800px;
+}
+
+#menuIdioma {
+    font-size: 10px;    
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section1 {
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1024px;
+    height: 62px;
+}
+
+.elemLogo {
+    width: 600px;
+}
+
+.elemLogo img {
+    width: 166px;
+}
+
+.elemMenu {
+    color: white;
+    display: flex;
+    font-size: 13px;
+    width: 343px;
+    justify-content: space-between;
+}
+
+.banner {
+    background-image: url('/img/imgEncabezado.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 409px;
+    width: 1024px;    
+}
+
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.titleBanner {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    height: 54px;
+    padding: 10px 5px;
+    width: 365px;
+}
+
+.legendBanner {
+    color: #3C2313;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.buttonBanner {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    height: 49px;
+    padding: 15px 23px;
+    width: 141px;
+}
+
+.content {
+    width: 1024px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#iconHuellaBig {
+    width: 67px;
+}
+
+.contentTitle {
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contentSubtitle {
+    color: #666666;
+    font-size: 15px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 95px 80px;
+    text-align: center;
+    width: 834px;
+}
+
+.product {
+    background-color: #FBFAF6;
+    height: 312px;
+    width: 265px;
+}
+
+.product img {
+    width: 265px;
+}
+
+.product .desc {
+    color: #3C2313;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.product .price {
+    color: #F0A83E;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.footerLinks {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 284px;
+    width: 1024px;
+}
+
+.linksIzq {
+    height: 284px;
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    width: 300px;
+}
+
+.link img {
+    padding-right: 25px;
+}
+
+.linkSmall {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#logoFooter {
+    padding-right: 70px;
+    width: 250px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    height: 20px;
+    text-align: center;
+    width: 1024px;
+}
